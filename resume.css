@@ -43,6 +43,7 @@ p {
 .btn {
     background-color: #419d78;
     color: #d6f8d6;
+    border-color: black;
 }
 
 .btn:hover, btn:active, btn:focus, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
@@ -161,12 +162,22 @@ dd:first-of-type, dd:nth-of-type(3) {
   padding-top: 2em;
 }
 
-#cabin-site-container {
+.fig-container {
   padding: 3em;
 }
 
 iframe {
 
+}
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-left: 8vw;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 /*Vertical Alignment Classes*/
