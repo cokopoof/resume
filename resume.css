@@ -1,0 +1,134 @@
+/*set up*/
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    /*background-color: #2d3047;*/
+    background-color: #090c08;
+    height: 100%;
+}
+
+h1 {
+    color:
+        /*#d6f8d6*/
+        #710889;
+}
+
+h2 {
+    padding-top: 1em;
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+}
+hr {
+    opacity: 0.5
+}
+p {
+    font-size: 1.3em;
+    line-height: 2em;
+    padding: 1.2em;
+    position: relative;
+    text-align: center;
+}
+
+#stars {
+    display: block;
+    text-align: center;
+    line-height:
+}
+
+.btn {
+    background-color: #419d78;
+    color: #d6f8d6;
+}
+
+.btn:hover, btn:active, btn:focus, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #7fc6a4;
+}
+
+#content-area {
+    height: 100%;
+    color: #f7f7f2;
+}
+
+.page:not(#about) {
+    display: none;
+}
+
+.page {
+    position: relative;
+    width: 90vw;
+    min-height: 40vh;
+    background-color: #710889;
+    margin: 3em auto 0 auto;
+    border-radius: 20px;
+}
+
+.glyphicon:not(:first-of-type) {
+    padding-left: 5px
+}
+
+.skill-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1rem solid #090c08;
+    border-radius: 30px;*/
+}
+
+ul {
+  list-style: none;
+}
+
+.skill {
+    padding-top: 1em;
+    line-height: 1.5em;
+}
+
+.is-soft-skills::before {
+    content: "\2619";
+}
+
+.is-certified {
+    display: block;
+}
+
+.is-certified::before {
+    content: "\e124";
+    font-family: 'Glyphicons Halflings';
+    float: left;
+    color: rgb(255,215,0);
+    padding-right: 1em;
+}
+.is-hard-skill:not(.is-certified)::before {
+    content: "\e136";
+    font-family: 'Glyphicons Halflings';
+    float: left;
+    padding-right: 1em;
+}
+.is-soft-skill::before {
+    content: "\e212";
+    font-family: 'Glyphicons Halflings';
+    float: left;
+    padding-right: 1em;
+    color: white;
+}
+
+/*Vertical Alignment Classes*/
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.aligner-item--top {
+    align-self: flex-start;
+}
+
+aligner-item--bottom {
+    align-self: flex-end;
+}
